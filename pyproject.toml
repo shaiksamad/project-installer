@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "project-installer"
+authors = [{name = "Shaik Abdus Samad", email = "shaiksamad.dev@gmail.com"}]
+version = "v0.1.0"
+requires-python = ">=3.6"
+dependencies = [
+    "requests"
+]
+
+license = { file = "LICENSE" }
+readme = "README.md"
+description = "Download and install files from online git repositories. Currently supports only github."
+
+keywords = ["installer", "project"]
+
+classifiers = [
+  "Programming Language :: Python",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: Microsoft :: Windows :: Windows 7",
+  "Operating System :: Microsoft :: Windows :: Windows 8",
+  "Operating System :: Microsoft :: Windows :: Windows 8.1",
+  "Operating System :: Microsoft :: Windows :: Windows 10",
+  "Operating System :: Microsoft :: Windows :: Windows 11",
+  "Topic :: System :: Installation/Setup"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/shaiksamad/project-installer"
+Repository = "https://github.com/shaiksamad/project-installer.git"
+"Bug Tracker" = "https://github.com/shaiksamad/project-installer/issues"
+
